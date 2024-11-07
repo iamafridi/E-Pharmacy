@@ -28,7 +28,6 @@ The **e-Pharmacy Management System** is an application built to manage a pharmac
 
 ### 1. Clone the Repository
 
-``bash
 git clone https://github.com/your-username/e-pharmacy-management-system.git
 cd e-pharmacy-management-system
 
@@ -36,19 +35,16 @@ cd e-pharmacy-management-system
 
 Ensure that Java 21 is installed on your system. You can check your Java version by running:
 
-``bash
-
 java -version
 
 If Java 21 is installed, compile the Java files by running:
 
-``bash
 javac *.java
 
 ### 3. Run the Application
 
 To run the application, execute the Main.java file:
-``bash
+
 java Main
 
 The system will start and prompt you with a menu of options (Search, View Stock, Order Medication, and Exit).
@@ -86,11 +82,11 @@ Holds the attributes of a medication like name, manufacturer, expiry date, batch
  A concrete class that extends PharmacyUser. Handles operations for customers, such as ordering medications.
 ## Pharmacist: 
 A concrete class that extends PharmacyUser. Handles operations for pharmacists, such as restocking medications.
-##Searchable: 
+## Searchable: 
 Interface implemented by the Pharmacy class to allow searching for medications.
-##Pharmacy:
+## Pharmacy:
  Manages the medication list and provides methods to add, search, and display medications.
-##Main:
+## Main:
 The entry point for the application, containing the main menu and user interaction logic.
 
 ### UML Diagram
@@ -117,7 +113,7 @@ To run the unit tests:
 Make sure you have JUnit or a similar testing framework installed.
 Compile the tests and run them using the following command:
 
-``bash
+
 javac Test*.java
 java org.junit.runner.JUnitCore TestMedication
 
