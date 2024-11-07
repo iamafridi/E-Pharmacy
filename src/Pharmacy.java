@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pharmacy implements Searchable {
-    private List<Medication> medications;
+    private final List<Medication> medications;
 
     public Pharmacy() {
         medications = new ArrayList<>();

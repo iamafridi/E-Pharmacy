@@ -1,10 +1,10 @@
 public class Medication {
-    private String name;
-    private String manufacturer;
-    private String expiryDate;
-    private String batchNumber;
+    private final String name;
+    private final String manufacturer;
+    private final String expiryDate;
+    private final String batchNumber;
     private int stockQuantity;
-    private double price;
+    private final double price;
 
     public Medication(String name, String manufacturer, String expiryDate, String batchNumber, int stockQuantity, double price) {
         this.name = name;

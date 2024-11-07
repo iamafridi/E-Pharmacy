@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-    private static Pharmacy pharmacy = new Pharmacy();
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Pharmacy pharmacy = new Pharmacy();
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         // Initialize the pharmacy with some medications
@@ -14,20 +14,14 @@ public class Main {
             scanner.nextLine(); // consume newline
 
             switch (choice) {
-                case 1:
-                    searchMedication();
-                    break;
-                case 2:
-                    viewStock();
-                    break;
-                case 3:
-                    orderMedication();
-                    break;
-                case 4:
+                case 1 -> searchMedication();
+                case 2 -> viewStock();
+                case 3 -> orderMedication();
+                case 4 -> {
                     System.out.println("Exiting...");
                     return; // Exit the program
-                default:
-                    System.out.println("Invalid choice. Please try again.");
+                }
+                default -> System.out.println("Invalid choice. Please try again.");
             }
         }
     }
