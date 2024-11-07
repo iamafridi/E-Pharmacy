@@ -28,7 +28,7 @@ The **e-Pharmacy Management System** is an application built to manage a pharmac
 
 ### 1. Clone the Repository
 
-```bash
+``bash
 git clone https://github.com/your-username/e-pharmacy-management-system.git
 cd e-pharmacy-management-system
 
@@ -46,6 +46,7 @@ If Java 21 is installed, compile the Java files by running:
 javac *.java
 
 ### 3. Run the Application
+
 To run the application, execute the Main.java file:
 ``bash
 java Main
