@@ -94,6 +94,7 @@ Interface implemented by the Pharmacy class to allow searching for medications.
 The entry point for the application, containing the main menu and user interaction logic.
 
 ### UML Diagram
+![UML](https://github.com/user-attachments/assets/2d6718e6-21d2-4893-a20e-7d07e2ba4671)
 
 ### Exception Handling
 MedicationNotFoundException: Thrown when a medication is not found in the pharmacy during search or order operations.
