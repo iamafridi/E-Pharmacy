@@ -1,0 +1,5 @@
+Paracetamol, XYZ Pharma, 2025-12-01, 12345, 100, 5.0
+Aspirin, ABC Pharma, 2024-12-01, 67890, 50, 7.0
+Ibuprofen, DEF Pharma, 2023-06-01, 11223, 200, 3.5
+Amoxicillin, GHI Pharma, 2026-05-01, 44556, 150, 8.0
+Cough Syrup, JKL Pharma, 2024-01-01, 78901, 80, 4.0
